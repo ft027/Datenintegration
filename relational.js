@@ -72,18 +72,13 @@ var allData = function(db, callback) {
 
 
 
-MongoClient.connect(url, function(err, db) {
-    assert.equal(null, err);
-    allData(db, function() {
-        db.close();
-    });
-});
+
 
 
 
 
 //mongoDatabase();
-ppnDatabase();
+
 
 
 
